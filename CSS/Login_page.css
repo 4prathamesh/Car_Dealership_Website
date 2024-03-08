@@ -1,0 +1,27 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_login_box
+{
+    width: 100%;
+    height: 700px;
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login_box
+{
+    width: 50%;
+    height: 500px;
+    background-color:antiquewhite;
+    margin: 100px auto;
+    text-align: center;
+}
+form label
+{
+    width: 100%;
+    border: 2px solid black;
+}
