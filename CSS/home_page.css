@@ -6,8 +6,6 @@
     .main_body {
         width: 100%;
         min-height: 10vh;
-        /* min-height: min-content; */
-        /* border: 2px solid red; */
         display: flex;
         flex-wrap: wrap;
         position: relative;
@@ -428,10 +426,6 @@
     /* ----------     media querey for contact, slider, box and sell --------- */
     
     @media only screen and (max-width: 769px) {
-        /* .main_body {
-            width: 80%;
-            min-height: 800px;
-        } */
         /* --------  it is for contact  ------- */
         .main_body .contact {
             width: 100%;
@@ -443,6 +437,10 @@
             justify-content: space-evenly;
             background-color: #e8f9fd;
         }
+        .main_body .contact_1
+        {
+            width: 50%;
+        }
         .main_body .contact_1 ul {
             display: flex;
             flex-direction: row;
@@ -452,7 +450,7 @@
         .slider {
             width: 100%;
             margin: 5px auto;
-            min-height: 500px;
+            height: 100%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
