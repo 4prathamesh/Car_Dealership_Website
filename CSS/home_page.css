@@ -11,6 +11,7 @@
         position: relative;
         flex-direction: column;
         background-color: #e8f9fd;
+        position: relative;
     }
     
     .main_body .contact {
@@ -23,6 +24,7 @@
         justify-content: center;
         justify-content: space-evenly;
         background-color: #e8f9fd;
+        position: fixed;
     }
     
     .contact h1 {
